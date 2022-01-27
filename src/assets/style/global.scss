@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&family=Roboto:wght@400;700&display=swap');
+@import './partials/variables.scss';
+
+/* ------------------------
+RESET
+------------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------
+GLOBALS
+------------------------ */
+
+/* ------------------------
+CONTAINERS
+------------------------ */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.view {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px;
+  }
+
+
+/* ------------------------
+TYPO
+------------------------ */
+body{
+    font-family: 'Roboto', sans-serif;
+}
