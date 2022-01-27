@@ -1,16 +1,22 @@
 <template>
   <div>
     <FooterItem />
+    <FooterMenu />
+    <FooterSocial />
   </div>
 </template>
 
 <script>
 import FooterItem from './FooterItem.vue'
+import FooterMenu from './FooterMenu.vue'
+import FooterSocial from './FooterSocial.vue'
 
 export default {
   name: 'Footer',
   components:{
-    FooterItem
+    FooterItem,
+    FooterMenu,
+    FooterSocial
   }
 }
 </script>

@@ -1,34 +1,36 @@
 <template>
   <div class="view">
-    <div class= "item">
-      <div>
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+    <div class=" container footer-container">
+      <div class="item">
+        <div>
+          <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        </div>
+        <p class="item-title">digital comics</p>
       </div>
-      <p class="item-title">digital comics</p>
-    </div>
-    <div class= "item">
-      <div>
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+      <div class="item">
+        <div>
+          <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        </div>
+        <p class="item-title">digital comics</p>
       </div>
-      <p class="item-title">digital comics</p>
-    </div>
-    <div class= "item">
-      <div>
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+      <div class="item">
+        <div>
+          <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        </div>
+        <p class="item-title">digital comics</p>
       </div>
-      <p class="item-title">digital comics</p>
-    </div>
-    <div class= "item">
-      <div>
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+      <div class="item">
+        <div>
+          <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        </div>
+        <p class="item-title">digital comics</p>
       </div>
-      <p class="item-title">digital comics</p>
-    </div>
-    <div class= "item">
-      <div>
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+      <div class="item">
+        <div>
+          <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        </div>
+        <p class="item-title">digital comics</p>
       </div>
-      <p class="item-title">digital comics</p>
     </div>
   </div>
 </template>
@@ -44,13 +46,17 @@ export default {
 @import "../assets/style/partials/variables.scss";
 .view {
   background-color: $mainColor;
-  display: flex;
-  justify-content: space-evenly;
 
-  .item{
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .item {
       display: inline-flex;
       justify-content: space-between;
       align-items: center;
+      padding: 20px 10px;
+    }
   }
 }
 
